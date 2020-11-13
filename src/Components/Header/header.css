@@ -1,0 +1,46 @@
+.navbar{
+    background-color: #ff9344;
+}
+.navbar-brand img{
+    width:100px;
+    height: 45px;
+    border-radius: 0%;
+    color: white;
+}
+button.navbar-toggler{
+    border: transparent;
+    outline: none;
+    text-decoration: none;
+}
+button.navbar-toggler:hover{
+    border: transparent;
+    outline: none;
+    text-decoration: none;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.fa-user-plus,.fa-sign-in,.fa-bars{
+    color: black;
+}
+.fa-bars{
+    font-size: 30px;
+}
+.sign-out-btn{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.sign-out-btn:hover{
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+.fa-user-circle-o,.fa-user-o,.fa-plus{
+    color: black;
+}

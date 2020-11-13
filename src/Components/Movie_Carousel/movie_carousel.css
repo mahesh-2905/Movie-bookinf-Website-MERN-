@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+}
+.movie_carousel{
+  margin:30px ;
+}
+.Slide{
+  margin-top: 60px;
+  overflow: hidden;
+  border:none;
+  outline: none;
+}
+ .Banner_image{
+   margin: auto;
+   width: 97%;
+   height: 500px;
+   position: relative;
+   border-radius: 0%;
+}
+.Banner_image::after{
+  position: absolute;
+  content: " ";
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(270deg, rgba(0,0,0,0.3847514005602241) 0%, rgba(0,0,0,0.6360119047619048) 66%);
+  border-radius: 0%;
+  z-index: 0;
+}
+.Banner_info{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 10%;
+  font-family: 'Carter One', cursive;
+  text-shadow: 3px 3px 2px rgb(61, 60, 60);
+  color: white;
+  z-index: 10;
+}
+h1#movie_name{
+  border-left: 3px solid white;
+  padding-left: 5px;
+}
+i{
+  font-size: 5px;
+  cursor: pointer;
+  text-shadow: none;
+  color: rgb(255, 81, 0);
+}
+
+
+
+
+/*Responsive Styling*/
+
+@media screen and (min-width:230px){
+  .movie_carousel{
+    margin: 10px;
+  }
+  .Banner_image{
+    height: 200px;
+  }
+  h1#movie_name{
+    font-size: 1em;
+  }
+  h3#trailer{
+    font-size: 1em;
+  }
+  h1.header{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width:400px){
+  .movie_carousel{
+    margin: 20px;
+  }
+  .Banner_image{
+    height: 300px;
+  }
+  h1#movie_name{
+    font-size: 1.5em;
+  } 
+  h3#trailer{
+    font-size: 1.5em;
+  }
+  h1.header{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width:650px){
+  .movie_carousel{
+    margin: 30px;
+  }
+  h1#movie_name{
+  font-size: 1.9em;
+  }
+  h3#trailer{
+  font-size: 1.9em;
+  }
+  h1.header{
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width:850px){
+
+  h1#movie_name{
+    font-size: 2.2em;
+  }
+  h3#trailer{
+    font-size: 2.2em;
+  }
+  h1.header{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width:1100px){
+  .Banner_image{
+     height: 550px;
+  }
+  h1.header{
+    margin-top: 100px;
+    font-size: 65px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+}
+.details_section{
+    margin-top: 0%;
+}
+.details_jumbotron{
+    margin-top: 73px;
+    background-color: #ff9344;
+    margin-bottom: 0px;
+}
+.details_header{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: .1em;
+}
+.facts_header{
+    font-size: 33px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: .1em;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    background-color: #ff9344;
+    font-weight: 600;
+    margin:50px 15px;
+    transition: all .3s ease;
+}
+.link:hover{
+   background-color: transparent;
+   border: 1px solid #ff9344;
+}
+.link:hover .nav_link{
+    color: #ff9344;
+}
+.nav_link{
+    color: white;
+}
+.nav_link:hover{
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+}
+.moviedetails-body{
+    border-radius: 0%;
+    background-color: white;
+}
+.card-img{
+    border-radius: 0%;
+}
+.card{
+  border: none;
+  box-shadow: 0 3px 6px 2px rgba(0,0,0,0.1);
+}
+iframe{
+    width:90%;
+    height: 310px;
+}
+.lang-badge{
+        font-size: .8em;
+        background-color: gray;
+        color: white;
+        padding: 6px;
+}
+.genre-badge{
+    font-size: .8em;
+    background-color: rgb(255, 217, 0);
+    color: white;
+    padding: 6px;
+}
+@media screen and (min-width:240px){
+    .details_header{
+        font-size: 1.6em;
+    }
+    .facts_header{
+        font-size: 1.2em;
+    }
+    .link{
+        font-size: .6em;
+    }
+}
+@media screen and (min-width:400px){
+    .details_header{
+        font-size: 2.7em;
+    }
+    .facts_header{
+        font-size: 1.7em;
+    }
+    .link{
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:1000px){
+    .details_header{
+        font-size: 3em;
+    }
+    .facts_header{
+        font-size: 2em;
+    }
+}

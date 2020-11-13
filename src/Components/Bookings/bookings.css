@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@811&display=swap');
+
+
+.bookings_banner{
+
+    background-image: linear-gradient(270deg, rgba(0,0,0,0.808000700280112) 0%, rgba(0,0,0,0.808000700280112) 83%),url('https://thumbs.dreamstime.com/b/movie-online-booking-concept-wooden-background-82979515.jpg');
+    text-align: center;
+    padding: 150px 60px;
+    margin-bottom: 100px;
+}
+.bookings_banner-info-links{
+    /* font-family: 'Lobster', cursive; */
+    letter-spacing: .1em;
+    font-size: 1.4em;
+}
+.bookings-container{
+    margin-bottom: 200px;
+}
+.booking-img{
+    width: 100%;
+    height: 300px;
+}
+#pyo{
+    color: #ff9344;
+}
+#home-link{
+    color: white;
+    transition: all .3s ease;
+}
+#home-link:hover{
+    text-decoration: none;
+    color: #ff9344;
+}
+#bookings-heading{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    letter-spacing: .1em;
+    font-size: 2.4em;
+}
+.card-bookings-body{
+    background-color: transparent;
+    border: none;
+    border-radius: 0%;
+}
+.bookings-form{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(199, 188, 188, 0.7);
+    border-radius: 0%;
+}
+.bookings-form::placeholder{
+    text-align: left;
+}
+#bookings-form-read{
+    background: transparent;
+}
+.bookings-form:focus{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(199, 188, 188, 0.7);
+    border: none;
+    box-shadow: none;
+}
+.bookings-icon{
+    color: crimson;
+    font-size: 20px;
+}

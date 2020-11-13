@@ -1,0 +1,62 @@
+
+.inner-cast_section{
+    margin:50px;
+}
+.Cast_image{
+    margin: auto;
+    position:relative;
+}
+.Cast_image:hover .cast_overlay{
+    transform: scaleY(1);
+}
+.cast_overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    transform: scaleY(0);
+    transition: all .3s ease;
+    background: linear-gradient(270deg, rgba(0,0,0,0.358420868347339) 0%, rgba(0,0,0,0.458420868347339) 83%);
+}
+.cast_overlay h5.movieinfo{
+    text-align: center;
+}
+.cast_hader{
+    letter-spacing: .1em;
+}
+h5.movieinfo{
+    margin-top: 50%;
+    font-weight: bold;
+    color: white;
+}
+
+
+@media screen and (min-width:250px){
+    .Cast_image{
+        width: 80%;
+        height: 80px;
+    }
+    
+}
+
+@media screen and (min-width:600px){
+
+    .MovieBanner_image{
+        height: 200px;
+    }
+    
+}
+@media screen and (min-width:800px){
+    .Cast_image{
+        width: 90%;
+        height: 230px;
+    }
+    
+}
+@media screen and (min-width:900px){
+    .Cast_image{
+        height: 400px;
+    }
+}
